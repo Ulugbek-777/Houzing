@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1395px;
+  margin: 0 auto;
+}
+
+/* ! Header */
+
+header .row {
+  width: 100%;
+  height: 65px;
+  background: rgb(13, 38, 59);
+  color: #fff;
+}
+
+header .row nav {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .row nav ul {
+  display: flex;
+  gap: 64px;
+}
+
+header .row nav ul li {
+  list-style: none;
+}
+
+header .row nav ul a {
+  text-decoration: none;
+  color: #fff;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header .row2 nav {
+  width: 90%;
+  height: 65px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+header .row2 nav .btn {
+  display: flex;
+  align-items: center;
+  padding: 12px 40px;
+  background: #fff;
+  color: rgb(13, 38, 59);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid rgb(230, 233, 236);
+  border-radius: 2px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+header .row2 nav .btn img {
+  padding: 0 10px;
+}
+
+header .row2 nav .wide {
+  width: 527px;
+}
+
+header .row2 nav .blue {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 97, 223);
+  background: rgb(0, 97, 223);
+  color: #fff;
+}
+
+/* ! Main */
+
+main {
+  width: 100%;
+  height: 2700px;
+  margin-top: 56px;
+}
+
+main article .title .title1 {
+  text-align: center;
+  color: rgb(13, 38, 59);
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 600;
+}
+
+main article .title .title2 {
+  text-align: center;
+  color: rgb(105, 105, 105);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+main .cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main .cards .card {
+  width: 380px;
+  height: 429px;
+  box-sizing: border-box;
+  border: 1px solid rgb(230, 233, 236);
+  border-radius: 3px;
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  position: relative;
+}
+
+main .cards .card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.06),
+    0px 7px 46px 0px rgba(0, 0, 0, 0.06), 0px 20px 38px 0px rgba(0, 0, 0, 0.06);
+}
+
+main article .cards .card .btns {
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+main article .cards .card .btns .btn {
+  padding: 12px 15px;
+  border-radius: 3px;
+  background: rgb(0, 97, 223);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+main article .cards .card .btns .btn2 {
+  padding: 12px 15px;
+  border-radius: 3px;
+  background: rgb(13, 38, 59);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+main article .cards .card .profile img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+}
+
+main article .cards .card .profile img {
+  width: 38px;
+  height: 38px;
+  box-shadow: 0px 0px 10px 0px rgba(13, 38, 59, 0.2);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  right: 22px;
+}
+
+main article .cards .card h3 {
+  padding: 24px 0px 4px 20px;
+  color: rgb(13, 38, 59);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+main article .cards .card .card-title {
+  color: rgb(105, 105, 105);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+main article .cards .card ul {
+  display: flex;
+  list-style: none;
+  padding: 16px 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(230, 233, 236);
+}
+
+main article .cards .card ul li {
+  color: rgb(105, 105, 105);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+main article .cards .card ul li img {
+  width: 19px;
+  height: 19px;
+  margin-bottom: 8px;
+}
+
+main article .cards .card .price {
+  display: flex;
+  width: 100%;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main article .cards .card .price .price-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards .card .price .price-text .price1 {
+  color: rgb(105, 105, 105);
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.cards .card .price .price-text .price2 {
+  color: rgb(13, 38, 59);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ! Footer */
+
+footer {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(13, 38, 59);
+  color: #fff;
+}
+
+footer .card-block {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+footer .bottom-info {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+footer .bottom-info .bi-end {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+footer .bottom-info .bi-end p {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .bottom-info .bi-end span {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background: rgb(0, 97, 223);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .card-block .lists h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+footer .card-block .lists ul li {
+  list-style: none;
+  color: rgb(180, 178, 178);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+footer .card-block .lists ul li span {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+main article .btnsh {
+  width: 250px;
+  height: 44px;
+  border-radius: 2px;
+  background: rgb(0, 97, 223);
+  border: none;
+  color: #fff;
+  margin-top: 80px;
+  margin-left: 570px;
+}
